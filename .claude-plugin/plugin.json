@@ -1,0 +1,21 @@
+{
+  "name": "superhawk",
+  "displayName": "Superhawk",
+  "version": "0.1.0",
+  "description": "Review customer accounts in Superhawk from a conversation: health, outcomes, risks, stakeholders and open action items, under your own Superhawk permissions.",
+  "author": {
+    "name": "Superhawk",
+    "email": "support@superhawk.ai",
+    "url": "https://superhawk.ai"
+  },
+  "homepage": "https://superhawk.ai",
+  "repository": "https://github.com/superhawk-ai/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "customer-success",
+    "account-management",
+    "crm",
+    "superhawk"
+  ],
+  "privacyPolicyUrl": "https://superhawk.ai/privacy"
+}

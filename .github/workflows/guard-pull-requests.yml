@@ -1,0 +1,27 @@
+name: Point pull requests at the source
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              "Thanks for this. The files in this repository are copied automatically from a private Superhawk source on every release, so a change made here would be overwritten by the next sync.",
+              "",
+              "A Superhawk maintainer will read this pull request and, if we take the change, make it in the source. It will appear here with the next release. Questions: support@superhawk.ai.",
+            ].join("\n");
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body,
+            });
