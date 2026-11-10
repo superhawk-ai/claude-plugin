@@ -1,10 +1,10 @@
 {
   "name": "superhawk",
-  "displayName": "Superhawk",
-  "version": "0.1.0",
+  "displayName": "Superhawk AI",
+  "version": "0.1.2",
   "description": "Review customer accounts in Superhawk from a conversation: health, outcomes, risks, stakeholders and open action items, under your own Superhawk permissions.",
   "author": {
-    "name": "Superhawk",
+    "name": "Superhawk AI",
     "email": "support@superhawk.ai",
     "url": "https://superhawk.ai"
   },

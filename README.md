@@ -1,6 +1,6 @@
-# Superhawk for Claude
+# Superhawk AI for Claude
 
-Superhawk is a customer success platform. This plugin connects Claude to your Superhawk workspace so you can review accounts, health, goals, risks and open work from a conversation.
+Superhawk AI is an AI-native workspace for post-sales teams. It unifies every call, email, ticket, contract and product signal into a living customer graph, so your teams and AI agents work from the same truth. This plugin connects Claude to your Superhawk workspace so you can review accounts, health, goals, risks and open work from a conversation.
 
 ## What it includes
 
@@ -33,7 +33,7 @@ You need a Superhawk account. Every call runs as you, with the same permissions 
 
 ## Data
 
-The plugin sends your questions and tool arguments (such as an account name) to Superhawk at `mcp.superhawk.ai`, which returns data from your own workspace. Data stays in your workspace's region (US or EU). The plugin itself stores nothing and contacts no other service.
+The plugin sends your questions and tool arguments (such as an account name) to Superhawk at `mcp.superhawk.ai`, which returns data from your own workspace. Requests are served, and request records are stored, in your workspace's region (US or EU). The plugin itself stores nothing and contacts no other service.
 
 ## Privacy
 
